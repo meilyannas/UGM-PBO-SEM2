@@ -1,0 +1,6 @@
+import math
+r = float(input("Masukkan jari-jari lingkaran: "))
+keliling = 2 * math.pi * r
+luas = math.pi * r * r
+print(f"Keliling lingkaran: {keliling:.2f}")
+print(f"Luas lingkaran: {luas:.2f}")
